@@ -20,7 +20,7 @@ class HyperOptGeneric:
             X: features
             y: labels
             learner_name: the name of the ML algo (L1,L2,SVM,RF,Xgboost)
-            search_method: 
+            search_method: 'random' or 'tree-based' Bayesian
             ind_params: individual-specific for the learner
             n_folds: number of cross-validation folds, default to 5
     '''
